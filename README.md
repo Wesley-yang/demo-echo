@@ -1,9 +1,10 @@
 #基于 echo 前端框架实现的图片延时加载
 
 移动端的用户更在意网络流量的节约，如果我们总是无意义的为用户加载用户未看到的图片，会使我们的 App 增加很多无意义的流量浪费。
-echo.js 很好的解决了这一问题，只有屏幕当前正在显示的图片才会下载到手机本地。
+echo.js 很好的解决了这一问题，只有屏幕当前正在显示的图片才会下载到手机本地，这种方式在表象上看起来也更接近原生体验。
 
 ##这个示例以脚本方式为开发者实现
+
 * 示例请使用 Apploader 查看。
 
 ##开发指南
@@ -21,5 +22,5 @@ echo.init({
 });
 ```
 
-[推荐文档](http://www.echojs.com)
-[推荐文档](http://www.jq22.com/jquery-info660)
+* 推荐文档([http://www.echojs.com](http://www.echojs.com))
+* 推荐文档([http://www.jq22.com/jquery-info660](http://www.jq22.com/jquery-info660))
